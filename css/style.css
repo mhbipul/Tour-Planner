@@ -64,9 +64,14 @@ nav ul li a{
 
 .back-video{
     position: absolute;
-    right: 0;
+    
     bottom: 0;
+    
     z-index: -1 ;
+
+    /* nothing
+    
+    */
 }
 @media(min-aspecet-ratio: 16/9){
     .back-video{
@@ -81,25 +86,3 @@ nav ul li a{
     }
 }
 /* Blog-post */
-.scroll-bg{
-    
-    width: auto;
-    margin: 10% auto;
-
-}
-
-
-.scroll-div{
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    overflow-y: scroll;
-
-}
-.scroll-object{
-    color: black;
-    font-family: cursive;
-    font-size: 15px;
-    padding: 20px;
-
-}
